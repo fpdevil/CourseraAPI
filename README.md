@@ -12,7 +12,7 @@ Tasks
 
 For building and running as a project using cabal:
 
-```
+```haskell
 > cabal build
 Building CourseraAPI-0.1.0.0...
 Preprocessing executable 'CourseraAPI' for CourseraAPI-0.1.0.0...
@@ -28,7 +28,8 @@ Linking dist/build/CourseraAPI/CourseraAPI ...
 
 If no options are provided while running the compiled build, it will
 show the available operations.
-```
+
+```haskell
 > dist/build/CourseraAPI/CourseraAPI
 ## Response from CourseraAPI ##
 Invoke any of the following operations:
@@ -43,7 +44,7 @@ getInstructorByName
 ```
 
 With the options...
-```
+```haskell
 > dist/build/CourseraAPI/CourseraAPI getCourseByName
 ## Response from CourseraAPI ##
 "Creative Programming for Digital Media & Mobile Apps"
